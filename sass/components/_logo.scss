@@ -1,0 +1,16 @@
+.logo-text {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 84px;
+  width: 153px;
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+
+  & > span {
+    color: #000000;
+  }
+}

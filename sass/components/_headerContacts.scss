@@ -1,0 +1,64 @@
+.contacts-block {
+  display: flex;
+  align-items: center;
+
+  .element-pic {
+    vertical-align: middle;
+    padding: 20px 0px;
+    margin-right: 10px;
+    fill: $second-text-color;
+  }
+
+  .element-container {
+    display: flex;
+
+    &:hover .element-pic {
+      fill: $accent-color;
+      cursor: pointer;
+    }
+  }
+}
+
+.mail {
+  margin-right: $margin-right-list;
+  font-weight: 500;
+  font-size: $main-font-size;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $second-text-color;
+  transition: color 250ms linear;
+
+  &-pic {
+    transition: fill 250ms linear;
+    width: 16px;
+    height: 11px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
+}
+
+.phone {
+  align-items: flex-end;
+  font-weight: 500;
+  font-size: $main-font-size;
+  line-height: $second-font-size;
+  letter-spacing: 0.02em;
+  color: $second-text-color;
+  transition: color 250ms linear;
+
+  &-pic {
+    transition: fill 250ms linear;
+    width: 10px;
+    height: 15px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    transition: color 250ms linear;
+  }
+}
